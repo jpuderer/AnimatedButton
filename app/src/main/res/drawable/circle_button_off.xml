@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lock_vector"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path
+        android:name="circle"
+        android:strokeColor="#FF0000"
+        android:strokeWidth="18.51924133"
+        android:pathData="M 190.74038,100 A 90.740379,90.740379 0 0 1 100,190.74038 90.740379,90.740379 0
+0 1 9.2596207,100 90.740379,90.740379 0 0 1 100,9.2596207 90.740379,90.740379 0
+0 1 190.74038,100 Z" />
+    <path
+        android:name="circle_green"
+        android:strokeColor="#00FF00"
+        android:trimPathOffset="0.5"
+        android:trimPathEnd="0"
+        android:strokeWidth="18.51924133"
+        android:pathData="M 190.74038,100 A 90.740379,90.740379 0 0 1 100,190.74038 90.740379,90.740379 0
+0 1 9.2596207,100 90.740379,90.740379 0 0 1 100,9.2596207 90.740379,90.740379 0
+0 1 190.74038,100 Z" />
+</vector>

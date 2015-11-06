@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/circle_button_on">
+    <target
+        android:name="circle_green"
+        android:animation="@animator/circle_on" />
+    <!--
+        I would LOVE to inline the animation here directly (like drawables),
+        instead of creating yet another file that gets referenced in only
+        one place once. I wish I understood how Google determines when you
+        can inline definitions (hint: should be always), or where the rules
+        are documented.
+    -->
+</animated-vector>
