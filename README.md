@@ -1,4 +1,4 @@
-Animated Vector Buttons
+Animated Lock Button
 =======================
 
 Overview

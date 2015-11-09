@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple
+            android:color="?android:attr/colorControlHighlight"></ripple>
+    </item>
+    <item>
+        <animated-selector>
+            <item
+                android:id="@+id/unlocked"
+                android:drawable="@drawable/lock_vector_unlocked"
+                android:state_checked="false" />
+
+            <item
+                android:id="@+id/locked"
+                android:drawable="@drawable/lock_vector_locked"
+                android:state_checked="true" />
+
+            <!-- Need to put each animated-vector in its own file, since inlining them
+                 exposes a bug in the XML parsing.  Boo!!!
+                 https://code.google.com/p/android/issues/detail?id=164361
+            -->
+            <transition
+                android:drawable="@drawable/lock_vector_lock"
+                android:fromId="@id/unlocked"
+                android:reversible="false"
+                android:toId="@id/locked"></transition>
+            <transition
+                android:drawable="@drawable/lock_vector_unlock"
+                android:fromId="@id/locked"
+                android:reversible="false"
+                android:toId="@id/unlocked"></transition>
+        </animated-selector>
+    </item>
+</layer-list>

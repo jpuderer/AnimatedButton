@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context="net.jpuderer.animatedbutton.MainActivity">
+    tools:context="net.jpuderer.animatedlockbutton.MainActivity">
 
     <ToggleButton
         android:layout_width="200dp"
@@ -12,7 +12,5 @@
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="40sp"
-        android:background="@drawable/circle_button"
-        android:textOn="On"
-        android:textOff="Off"/>
+        android:background="@drawable/lock_button"/>
 </LinearLayout>

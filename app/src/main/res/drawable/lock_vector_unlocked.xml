@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lock_vector"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path
+        android:name="circle_green"
+        android:strokeColor="#00FF00"
+        android:strokeWidth="18.51924133"
+        android:pathData="M 190.74038,100 A 90.740379,90.740379 0 0 1 100,190.74038 90.740379,90.740379 0
+0 1 9.2596207,100 90.740379,90.740379 0 0 1 100,9.2596207 90.740379,90.740379 0
+0 1 190.74038,100 Z" />
+    <path
+        android:name="circle_red"
+        android:strokeColor="#FF0000"
+        android:trimPathOffset="0.5"
+        android:trimPathEnd="0"
+        android:strokeWidth="18.51924133"
+        android:pathData="M 190.74038,100 A 90.740379,90.740379 0 0 1 100,190.74038 90.740379,90.740379 0
+0 1 9.2596207,100 90.740379,90.740379 0 0 1 100,9.2596207 90.740379,90.740379 0
+0 1 190.74038,100 Z" />
+    <path
+        android:name="hasp"
+        android:trimPathOffset="0.2"
+        android:trimPathEnd="0.9"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:pathData="M 99.854961 47.977413 L 99.854962 47.977413 Q 121.041962 47.977413 121.041962 72.244968 L 121.041962 106.68922 Q 121.041962 130.956775 99.854962 130.956775 L 99.854961 130.956775 Q 78.667961 130.956775 78.667961 106.68922 L 78.667961 72.244968 Q 78.667961 47.977413 99.854961 47.977413 Z" />
+    <path
+        android:name="lock"
+        android:fillColor="#FFFFFF"
+        android:pathData="M 68.45764 78.80307 L 131.252282 78.80307 Q 141.354961 78.80307 141.354961 88.905749 L 141.354961 141.700391 Q 141.354961 151.80307 131.252282 151.80307 L 68.45764 151.80307 Q 58.354961 151.80307 58.354961 141.700391 L 58.354961 88.905749 Q 58.354961 78.80307 68.45764 78.80307 Z" />
+
+</vector>

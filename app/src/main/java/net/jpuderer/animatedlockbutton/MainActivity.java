@@ -1,4 +1,4 @@
-package net.jpuderer.animatedbutton;
+package net.jpuderer.animatedlockbutton;
 
 import android.app.Activity;
 import android.os.Bundle;
