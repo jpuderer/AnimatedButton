@@ -8,8 +8,7 @@ This project contains example code for creating animated buttons in Android
 using vector drawables and animated state lists.
 
 You can find the article that describes what this is all about here:
-http://www.jpuderer.net/...
-
+http://www.jpuderer.net/2015/11/animated-buttons-without-any-java-code.html
 
 Getting Started
 ---------------
